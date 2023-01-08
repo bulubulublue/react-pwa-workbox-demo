@@ -1,0 +1,35 @@
+.DS_Store
+node_modules
+/dist
+/src/locales/**/
+!/src/locales/element-locales.js
+!/src/locales/i18n.js
+/public/**/locales
+.locales
+
+# Ignore module version
+package-lock.json
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.sfe_build_id
+
+docker/
+
+coverage/
